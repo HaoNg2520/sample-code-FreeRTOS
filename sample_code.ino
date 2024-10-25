@@ -12,9 +12,9 @@
 #define Led ...  //... khai báo led vào chân degital trên arduino
 
 //tạo 3 hàm sermaphore
-semaphore_handle Rung_semaphore;
-semaphore_handle Khoi_semaphore;
-semaphore_handle Person_semaphore;
+SemaphoreHandle_t Rung_semaphore;
+SemaphoreHandle_t Khoi_semaphore;
+SemaphoreHandle_t Person_semaphore;
 
 void setup() 
 {
